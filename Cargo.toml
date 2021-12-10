@@ -1,0 +1,9 @@
+[package]
+name = "rusty_speedwire"
+version = "0.1.0"
+authors = ["Marc Lasch <mlasch@mailbox.org>"]
+edition = "2021"
+repository = "https://github.com/mlasch/rusty_speedwire"
+
+[dependencies]
+tokio = { version = "*", features = ["macros", "net", "rt-multi-thread", "time"] }
